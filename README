@@ -1,0 +1,15 @@
+UAE Native Interface SDK
+========================
+
+This SDK contains header files to use when compiling native libraries for
+UAE.
+
+Examples are found in the examples directory. To run one specific example:
+
+  cd examples/hello-world
+  make run
+
+The makefiles (uni.mk, examples/examples.mk) are currently set up to
+compile with m68k-amigaos-gcc cross-compiler, and g++ for Linux x86-64.
+The examples are run with FS-UAE which must be found alongside the
+uni-sdk folder (or modify the .mk files).
